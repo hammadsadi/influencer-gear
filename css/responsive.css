@@ -1,0 +1,51 @@
+/* Small Devices */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .banner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-content-container {
+    width: 100%;
+    text-align: center;
+    order: 2;
+  }
+  .banner-content-container button {
+    margin: 0px auto;
+  }
+  .banner-image-container {
+    width: 100%;
+    order: 1;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .banner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-content-container {
+    width: 100%;
+    text-align: center;
+    order: 2;
+  }
+  .banner-content-container button {
+    margin: 0px auto;
+  }
+  .banner-image-container {
+    width: 100%;
+    order: 1;
+  }
+}

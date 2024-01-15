@@ -22,6 +22,9 @@ p {
   font-weight: 700;
   line-height: 28px; /* 175% */
 }
+img {
+  width: 100%;
+}
 ul li {
   list-style-type: none;
 }
@@ -88,15 +91,19 @@ nav ul li a > i {
 }
 .banner-content-container {
   width: 50%;
-  border: 1px solid green;
 }
 .banner-image-container {
   background-image: url("../images/Circledesign.svg");
   background-repeat: no-repeat;
   background-position: 51% 25%;
-  background-size: 78%;
+  background-size: contain;
   width: 45%;
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-image-container img {
+  width: 70%;
 }
 .section-heading {
   color: var(--color-primary);
