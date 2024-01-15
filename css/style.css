@@ -22,5 +22,94 @@ p {
   font-weight: 700;
   line-height: 28px; /* 175% */
 }
+ul li {
+  list-style-type: none;
+}
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
 
 /* Header */
+.header-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+nav .nav-brand {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+nav ul li a {
+  color: var(--color-gray);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+nav ul li a > i {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/* Banner Styles Here */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content-container {
+  width: 50%;
+  border: 1px solid green;
+}
+.banner-image-container {
+  background-image: url("../images/Circledesign.svg");
+  background-repeat: no-repeat;
+  background-position: 51% 25%;
+  background-size: 78%;
+  width: 45%;
+  border: 1px solid red;
+}
+.section-heading {
+  color: var(--color-primary);
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+.section-description {
+  color: var(--color-primary);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 1rem 0rem;
+}
